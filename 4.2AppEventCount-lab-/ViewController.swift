@@ -35,7 +35,7 @@ extension ViewController {
         didFinishLaunchingLabel.text = "The app has launched \(launchCount) time(s)"
         didDisconnectLabel.text = "The app has disconnected \(disconnectCount) time(s)"
         didBecomeActiveLabel.text = "The app has become active \(becomeActiveCount) time(s)"
-        willResignActiveLabel.text  = "The app has resigneded active \(resignActiveCount) time(s)"
+        willResignActiveLabel.text  = "The app has resigned active \(resignActiveCount) time(s)"
         willEnterForegroundLabel.text = "The app has entered foreground \(foregroundCount) time(s)"
         didEnterBackgroundLabel.text = "The app has entered background \(backgroundCount) time(s)"
     }

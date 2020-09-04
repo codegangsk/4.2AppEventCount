@@ -66,7 +66,7 @@
                     </view>
                     <connections>
                         <outlet property="didBecomeActiveLabel" destination="GOV-yl-hIH" id="VrV-v9-Aby"/>
-                        <outlet property="didDisconectLabel" destination="nEY-3O-vLi" id="u4A-zP-4cg"/>
+                        <outlet property="didDisconnectLabel" destination="nEY-3O-vLi" id="wa9-LC-xOA"/>
                         <outlet property="didEnterBackgroundLabel" destination="nQG-uh-rrh" id="8Dn-Fs-CFP"/>
                         <outlet property="didFinishLaunchingLabel" destination="bxe-Ow-Nu8" id="Mnc-ae-oqa"/>
                         <outlet property="willEnterForegroundLabel" destination="4cF-RI-GeC" id="3Hy-ce-JoY"/>
