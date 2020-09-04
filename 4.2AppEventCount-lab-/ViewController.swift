@@ -17,10 +17,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var willEnterForegroundLabel: UILabel!
     @IBOutlet weak var didEnterBackgroundLabel: UILabel!
     
+    var launchCount = 0
+    var disconnectCount = 0
+    var becomeActiveCount = 0
+    var resignActiveCount = 0
+    var foregroundCount = 0
+    var backgroundCount = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-
 }
 
