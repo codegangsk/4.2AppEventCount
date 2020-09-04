@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var didFinishLaunchingLabel: UILabel!
+    @IBOutlet weak var didDisconnectLabel: UILabel!
+    @IBOutlet weak var didBecomeActiveLabel: UILabel!
+    @IBOutlet weak var willResignActiveLabel: UILabel!
+    @IBOutlet weak var willEnterForegroundLabel: UILabel!
+    @IBOutlet weak var didEnterBackgroundLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
